@@ -15,14 +15,15 @@ END = "<!-- TABLE_END -->"
 
 
 def build_table(providers):
-    rows = ["| Provider | Category | Free tier | Promo | Card? | Verified |",
-            "| --- | --- | --- | --- | --- | --- |"]
+    rows = ["| Provider | Category | Free tier | Free models | Promo | Card? | Verified |",
+            "| --- | --- | --- | --- | --- | --- | --- |"]
     for p in providers:
         promo = p.get("promo") or "—"
         card = "❌ no" if not p.get("credit_card") else "⚠️ yes"
+        fm = ", ".join(p.get("free_models", [])) or "—"
         rows.append(
             f"| [{p['name']}]({p['url']}) | {p['category']} | {p['free_tier']} "
-            f"| {promo} | {card} | {p.get('last_verified','')} |"
+            f"| `{fm}` | {promo} | {card} | {p.get('last_verified','')} |"
         )
     return "\n".join(rows)
 

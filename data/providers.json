@@ -23,9 +23,10 @@
       "name": "OpenRouter",
       "url": "https://openrouter.ai/models",
       "category": "gateway",
-      "free_tier": "29+ free models (DeepSeek, Llama, Qwen, etc.) via one OpenAI-compatible key. No card.",
+      "free_tier": "~25+ free `:free` models (rotates monthly) + `openrouter/free` auto-router. 20 RPM / 50 RPD free; $10 top-up -> 1,000 RPD. No card.",
       "promo": "New accounts get free trial credits.",
       "credit_card": false,
+      "free_models": ["qwen/qwen3-coder:free", "nvidia/nemotron-3-ultra-550b-a55b:free", "meta-llama/llama-3.3-70b-instruct:free", "openai/gpt-oss-120b:free", "google/gemma-4-26b-a4b-it:free", "moonshotai/kimi-k2:free"],
       "last_verified": "2026-07-08"
     },
     {
@@ -41,9 +42,10 @@
       "name": "Cloudflare Workers AI",
       "url": "https://developers.cloudflare.com/workers-ai",
       "category": "api",
-      "free_tier": "~10,000 neurons/day, edge inference (Llama, Mistral, FLUX). No card.",
+      "free_tier": "10,000 neurons/day, 50+ open models at the edge (LLM, image, speech). No card.",
       "promo": null,
       "credit_card": false,
+      "free_models": ["@cf/meta/llama-3.1-8b-instruct", "@cf/mistral/mistral-7b-instruct-v0.2", "@cf/qwen/qwen1.5-7b-chat-awq", "@cf/stabilityai/stable-diffusion-xl-base-1.0"],
       "last_verified": "2026-07-08"
     },
     {
@@ -59,9 +61,10 @@
       "name": "Mistral AI",
       "url": "https://docs.mistral.ai",
       "category": "api",
-      "free_tier": "Le Chat + API experiment tier, all models incl. Large/Codestral at ~1 req/s. No card.",
-      "promo": null,
+      "free_tier": "La Plateforme Experiment tier: all models (Mistral Large, Codestral) ~1B tokens/month, ~1 req/s. Le Chat Free $0/mo (~25 msgs/day). SMS verify, no card.",
+      "promo": "Mistralship startup program up to ~$30K credits.",
       "credit_card": false,
+      "free_models": ["mistral-large", "codestral", "ministral-3b"],
       "last_verified": "2026-07-08"
     },
     {
@@ -95,8 +98,8 @@
       "name": "DeepSeek",
       "url": "https://platform.deepseek.com",
       "category": "api",
-      "free_tier": "Free chat web; API is pay-as-you-go (prepaid balance).",
-      "promo": "Free chat; some new accounts get trial credits.",
+      "free_tier": "Free chat web + ~5M signup tokens for API; then pay-as-you-go (prepaid).",
+      "promo": "Free chat; ~5M tokens on signup.",
       "credit_card": false,
       "last_verified": "2026-07-08"
     },
@@ -197,6 +200,80 @@
       "free_tier": "Claude free chat (~30-100 msgs/day). API: one-time starter credit only.",
       "promo": "One-time ~$5 API credit for new accounts.",
       "credit_card": true,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Nebius AI Studio",
+      "url": "https://studio.nebius.com",
+      "category": "api",
+      "free_tier": "~$1 trial credit, 60+ open models (Llama, DeepSeek, Qwen). No card to start.",
+      "promo": "Up to $5,000 via Nebius for Startups.",
+      "credit_card": false,
+      "free_models": ["meta-llama/Llama-3.3-70B-Instruct", "deepseek/deepseek-v3", "Qwen/Qwen2.5-72B-Instruct"],
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "SambaNova Cloud",
+      "url": "https://cloud.sambanova.ai",
+      "category": "api",
+      "free_tier": "$5 free API credits (30-day), fast RDU inference for Llama/Qwen. No card to start.",
+      "promo": null,
+      "credit_card": false,
+      "free_models": ["Meta-Llama-3.3-70B-Instruct", "Qwen2.5-72B-Instruct", "DeepSeek-V3.1"],
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai",
+      "category": "chat",
+      "free_tier": "Free chat: ~5 Deep Research + 3 Pro searches/day, unlimited quick search. No card.",
+      "promo": "Comet browser free for all users.",
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "OVHcloud AI Endpoints",
+      "url": "https://endpoints.ai.cloud.ovh.net",
+      "category": "api",
+      "free_tier": "Free (limited) inference for open models (Llama, Mistral, Bielik). No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Chutes.ai",
+      "url": "https://chutes.ai",
+      "category": "api",
+      "free_tier": "Free tier for open models (DeepSeek, Qwen, Llama) via OpenAI-compatible API. No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Glhf.chat",
+      "url": "https://glhf.chat",
+      "category": "api",
+      "free_tier": "Free OpenAI-compatible API for many open models. No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "AI21 Labs",
+      "url": "https://docs.ai21.com",
+      "category": "api",
+      "free_tier": "Free tier with monthly usage (Jamba, Maestro). No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Exa (web search API)",
+      "url": "https://exa.ai",
+      "category": "api",
+      "free_tier": "Free tier for AI web search / retrieval API. No card.",
+      "promo": null,
+      "credit_card": false,
       "last_verified": "2026-07-08"
     }
   ]
