@@ -1,0 +1,203 @@
+{
+  "_note": "Free-tier / promo status of AI API providers, verified 2026-07. Limits change often — update last_verified when you confirm. credit_card=false means no card needed to use the free tier. Promos may require opt-in (data sharing, etc.).",
+  "providers": [
+    {
+      "name": "Google AI Studio (Gemini)",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "category": "api",
+      "free_tier": "Gemini 2.5 Flash ~1,500 req/day (15 RPM), 2.5 Pro 25 req/day, 1M-token context. Permanent, no expiry.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Groq",
+      "url": "https://console.groq.com",
+      "category": "api",
+      "free_tier": "Llama 4 / Qwen3 / Gemma at ~30 RPM, up to ~14,400 req/day on small models. Very fast (LPU).",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/models",
+      "category": "gateway",
+      "free_tier": "29+ free models (DeepSeek, Llama, Qwen, etc.) via one OpenAI-compatible key. No card.",
+      "promo": "New accounts get free trial credits.",
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Hugging Face Inference API",
+      "url": "https://huggingface.co/docs/api-inference",
+      "category": "api",
+      "free_tier": "Thousands of open models, rate-limited per model. No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Cloudflare Workers AI",
+      "url": "https://developers.cloudflare.com/workers-ai",
+      "category": "api",
+      "free_tier": "~10,000 neurons/day, edge inference (Llama, Mistral, FLUX). No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Cerebras",
+      "url": "https://cerebras.ai/product/cerebras-inference",
+      "category": "api",
+      "free_tier": "Up to ~1M tokens/day free, 2,000+ tok/s on Llama 3.3 70B. No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Mistral AI",
+      "url": "https://docs.mistral.ai",
+      "category": "api",
+      "free_tier": "Le Chat + API experiment tier, all models incl. Large/Codestral at ~1 req/s. No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "NVIDIA NIM",
+      "url": "https://build.nvidia.com",
+      "category": "api",
+      "free_tier": "1,000 free credits, Nemotron / Llama / Mistral. No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Together AI",
+      "url": "https://www.together.ai",
+      "category": "api",
+      "free_tier": "$1 signup credit, 200+ models (Llama, Qwen, DeepSeek). No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Fireworks AI",
+      "url": "https://fireworks.ai",
+      "category": "api",
+      "free_tier": "$1 free credits, fast LLM + image inference. No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "DeepSeek",
+      "url": "https://platform.deepseek.com",
+      "category": "api",
+      "free_tier": "Free chat web; API is pay-as-you-go (prepaid balance).",
+      "promo": "Free chat; some new accounts get trial credits.",
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "xAI Grok",
+      "url": "https://x.ai/api",
+      "category": "api",
+      "free_tier": "Paid API normally; promo credits via data-sharing opt-in.",
+      "promo": "Up to ~$175/mo free API credits if you opt into data sharing.",
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "GitHub Models",
+      "url": "https://github.com/marketplace/models",
+      "category": "gateway",
+      "free_tier": "100+ models with generous daily limits, OpenAI-compatible. No card (GitHub account).",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Ollama (self-hosted)",
+      "url": "https://ollama.com",
+      "category": "self-host",
+      "free_tier": "Run Llama, Qwen3.5, Gemma, Hermes locally. Unlimited, no rate limits, no card — needs your hardware.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Replicate",
+      "url": "https://replicate.com",
+      "category": "api",
+      "free_tier": "Free credits for new users; image/video/audio models.",
+      "promo": "New-account free credits.",
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Cohere",
+      "url": "https://docs.cohere.com",
+      "category": "api",
+      "free_tier": "Free tier with monthly usage (embeddings, chat, rerank). No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "SiliconFlow",
+      "url": "https://siliconflow.cn",
+      "category": "api",
+      "free_tier": "Free (limited) inference for open models (Qwen, DeepSeek, etc.). No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Zhipu AI (GLM)",
+      "url": "https://open.bigmodel.cn",
+      "category": "api",
+      "free_tier": "Free tier for GLM models. No card.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Alibaba Cloud Model Studio (Qwen)",
+      "url": "https://help.aliyun.com/model-studio",
+      "category": "api",
+      "free_tier": "Qwen API free (reduced) tier; chat app fully free. No card for trial.",
+      "promo": "Trial tokens per model for new accounts.",
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Modal",
+      "url": "https://modal.com",
+      "category": "api",
+      "free_tier": "$30/mo free compute credits, great for self-hosted inference.",
+      "promo": null,
+      "credit_card": false,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://platform.openai.com/docs/pricing",
+      "category": "api",
+      "free_tier": "Limited free tier (GPT-3.5-class) + ChatGPT free chat. Trial credits largely discontinued.",
+      "promo": null,
+      "credit_card": true,
+      "last_verified": "2026-07-08"
+    },
+    {
+      "name": "Anthropic Claude",
+      "url": "https://www.anthropic.com/api",
+      "category": "api",
+      "free_tier": "Claude free chat (~30-100 msgs/day). API: one-time starter credit only.",
+      "promo": "One-time ~$5 API credit for new accounts.",
+      "credit_card": true,
+      "last_verified": "2026-07-08"
+    }
+  ]
+}

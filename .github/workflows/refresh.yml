@@ -1,0 +1,33 @@
+name: Refresh
+
+on:
+  schedule:
+    - cron: "37 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+      - name: Check provider links & update last_checked
+        run: python check.py
+      - name: Regenerate README table
+        run: python generate.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet data/ README.md; then
+            git add data/ README.md
+            git commit -m "chore: weekly link check + refresh table"
+            git push
+          else
+            echo "No changes"
+          fi
