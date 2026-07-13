@@ -8,7 +8,8 @@
       "free_tier": "Gemini 2.5 Flash ~1,500 req/day (15 RPM), 2.5 Pro 25 req/day, 1M-token context. Permanent, no expiry.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Groq",
@@ -17,7 +18,8 @@
       "free_tier": "Llama 4 / Qwen3 / Gemma at ~30 RPM, up to ~14,400 req/day on small models. Very fast (LPU).",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "OpenRouter",
@@ -26,8 +28,16 @@
       "free_tier": "~25+ free `:free` models (rotates monthly) + `openrouter/free` auto-router. 20 RPM / 50 RPD free; $10 top-up -> 1,000 RPD. No card.",
       "promo": "New accounts get free trial credits.",
       "credit_card": false,
-      "free_models": ["qwen/qwen3-coder:free", "nvidia/nemotron-3-ultra-550b-a55b:free", "meta-llama/llama-3.3-70b-instruct:free", "openai/gpt-oss-120b:free", "google/gemma-4-26b-a4b-it:free", "moonshotai/kimi-k2:free"],
-      "last_verified": "2026-07-08"
+      "free_models": [
+        "qwen/qwen3-coder:free",
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "meta-llama/llama-3.3-70b-instruct:free",
+        "openai/gpt-oss-120b:free",
+        "google/gemma-4-26b-a4b-it:free",
+        "moonshotai/kimi-k2:free"
+      ],
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Hugging Face Inference API",
@@ -36,7 +46,8 @@
       "free_tier": "Thousands of open models, rate-limited per model. No card.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Cloudflare Workers AI",
@@ -45,8 +56,14 @@
       "free_tier": "10,000 neurons/day, 50+ open models at the edge (LLM, image, speech). No card.",
       "promo": null,
       "credit_card": false,
-      "free_models": ["@cf/meta/llama-3.1-8b-instruct", "@cf/mistral/mistral-7b-instruct-v0.2", "@cf/qwen/qwen1.5-7b-chat-awq", "@cf/stabilityai/stable-diffusion-xl-base-1.0"],
-      "last_verified": "2026-07-08"
+      "free_models": [
+        "@cf/meta/llama-3.1-8b-instruct",
+        "@cf/mistral/mistral-7b-instruct-v0.2",
+        "@cf/qwen/qwen1.5-7b-chat-awq",
+        "@cf/stabilityai/stable-diffusion-xl-base-1.0"
+      ],
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Cerebras",
@@ -64,8 +81,13 @@
       "free_tier": "La Plateforme Experiment tier: all models (Mistral Large, Codestral) ~1B tokens/month, ~1 req/s. Le Chat Free $0/mo (~25 msgs/day). SMS verify, no card.",
       "promo": "Mistralship startup program up to ~$30K credits.",
       "credit_card": false,
-      "free_models": ["mistral-large", "codestral", "ministral-3b"],
-      "last_verified": "2026-07-08"
+      "free_models": [
+        "mistral-large",
+        "codestral",
+        "ministral-3b"
+      ],
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "NVIDIA NIM",
@@ -74,7 +96,8 @@
       "free_tier": "1,000 free credits, Nemotron / Llama / Mistral. No card.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Together AI",
@@ -83,7 +106,8 @@
       "free_tier": "$1 signup credit, 200+ models (Llama, Qwen, DeepSeek). No card.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Fireworks AI",
@@ -92,7 +116,8 @@
       "free_tier": "$1 free credits, fast LLM + image inference. No card.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "DeepSeek",
@@ -110,7 +135,8 @@
       "free_tier": "Paid API normally; promo credits via data-sharing opt-in.",
       "promo": "Up to ~$175/mo free API credits if you opt into data sharing.",
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "GitHub Models",
@@ -119,7 +145,8 @@
       "free_tier": "100+ models with generous daily limits, OpenAI-compatible. No card (GitHub account).",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Ollama (self-hosted)",
@@ -128,7 +155,8 @@
       "free_tier": "Run Llama, Qwen3.5, Gemma, Hermes locally. Unlimited, no rate limits, no card — needs your hardware.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Replicate",
@@ -137,7 +165,8 @@
       "free_tier": "Free credits for new users; image/video/audio models.",
       "promo": "New-account free credits.",
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Cohere",
@@ -146,7 +175,8 @@
       "free_tier": "Free tier with monthly usage (embeddings, chat, rerank). No card.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "SiliconFlow",
@@ -155,7 +185,8 @@
       "free_tier": "Free (limited) inference for open models (Qwen, DeepSeek, etc.). No card.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Zhipu AI (GLM)",
@@ -164,7 +195,8 @@
       "free_tier": "Free tier for GLM models. No card.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Alibaba Cloud Model Studio (Qwen)",
@@ -173,7 +205,8 @@
       "free_tier": "Qwen API free (reduced) tier; chat app fully free. No card for trial.",
       "promo": "Trial tokens per model for new accounts.",
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Modal",
@@ -182,7 +215,8 @@
       "free_tier": "$30/mo free compute credits, great for self-hosted inference.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "OpenAI",
@@ -191,7 +225,8 @@
       "free_tier": "Limited free tier (GPT-3.5-class) + ChatGPT free chat. Trial credits largely discontinued.",
       "promo": null,
       "credit_card": true,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Anthropic Claude",
@@ -200,7 +235,8 @@
       "free_tier": "Claude free chat (~30-100 msgs/day). API: one-time starter credit only.",
       "promo": "One-time ~$5 API credit for new accounts.",
       "credit_card": true,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Nebius AI Studio",
@@ -209,8 +245,13 @@
       "free_tier": "~$1 trial credit, 60+ open models (Llama, DeepSeek, Qwen). No card to start.",
       "promo": "Up to $5,000 via Nebius for Startups.",
       "credit_card": false,
-      "free_models": ["meta-llama/Llama-3.3-70B-Instruct", "deepseek/deepseek-v3", "Qwen/Qwen2.5-72B-Instruct"],
-      "last_verified": "2026-07-08"
+      "free_models": [
+        "meta-llama/Llama-3.3-70B-Instruct",
+        "deepseek/deepseek-v3",
+        "Qwen/Qwen2.5-72B-Instruct"
+      ],
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "SambaNova Cloud",
@@ -219,8 +260,13 @@
       "free_tier": "$5 free API credits (30-day), fast RDU inference for Llama/Qwen. No card to start.",
       "promo": null,
       "credit_card": false,
-      "free_models": ["Meta-Llama-3.3-70B-Instruct", "Qwen2.5-72B-Instruct", "DeepSeek-V3.1"],
-      "last_verified": "2026-07-08"
+      "free_models": [
+        "Meta-Llama-3.3-70B-Instruct",
+        "Qwen2.5-72B-Instruct",
+        "DeepSeek-V3.1"
+      ],
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Perplexity",
@@ -238,7 +284,8 @@
       "free_tier": "Free (limited) inference for open models (Llama, Mistral, Bielik). No card.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Chutes.ai",
@@ -247,7 +294,8 @@
       "free_tier": "Free tier for open models (DeepSeek, Qwen, Llama) via OpenAI-compatible API. No card.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Glhf.chat",
@@ -265,7 +313,8 @@
       "free_tier": "Free tier with monthly usage (Jamba, Maestro). No card.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     },
     {
       "name": "Exa (web search API)",
@@ -274,7 +323,8 @@
       "free_tier": "Free tier for AI web search / retrieval API. No card.",
       "promo": null,
       "credit_card": false,
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-08",
+      "last_checked": "2026-07-13"
     }
   ]
 }
