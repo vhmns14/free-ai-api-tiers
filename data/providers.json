@@ -9,7 +9,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Groq",
@@ -19,7 +19,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "OpenRouter",
@@ -37,7 +37,7 @@
         "moonshotai/kimi-k2:free"
       ],
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Hugging Face Inference API",
@@ -47,7 +47,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Cloudflare Workers AI",
@@ -63,7 +63,7 @@
         "@cf/stabilityai/stable-diffusion-xl-base-1.0"
       ],
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Cerebras",
@@ -87,7 +87,7 @@
         "ministral-3b"
       ],
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "NVIDIA NIM",
@@ -97,7 +97,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Together AI",
@@ -107,7 +107,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Fireworks AI",
@@ -117,7 +117,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "DeepSeek",
@@ -136,7 +136,7 @@
       "promo": "Up to ~$175/mo free API credits if you opt into data sharing.",
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "GitHub Models",
@@ -146,7 +146,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Ollama (self-hosted)",
@@ -156,7 +156,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Replicate",
@@ -166,7 +166,7 @@
       "promo": "New-account free credits.",
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Cohere",
@@ -176,7 +176,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "SiliconFlow",
@@ -186,7 +186,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Zhipu AI (GLM)",
@@ -196,7 +196,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Alibaba Cloud Model Studio (Qwen)",
@@ -206,7 +206,7 @@
       "promo": "Trial tokens per model for new accounts.",
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Modal",
@@ -216,7 +216,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "OpenAI",
@@ -226,7 +226,7 @@
       "promo": null,
       "credit_card": true,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Anthropic Claude",
@@ -236,7 +236,7 @@
       "promo": "One-time ~$5 API credit for new accounts.",
       "credit_card": true,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Nebius AI Studio",
@@ -251,7 +251,7 @@
         "Qwen/Qwen2.5-72B-Instruct"
       ],
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "SambaNova Cloud",
@@ -266,7 +266,7 @@
         "DeepSeek-V3.1"
       ],
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Perplexity",
@@ -285,7 +285,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Chutes.ai",
@@ -295,7 +295,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Glhf.chat",
@@ -314,7 +314,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     },
     {
       "name": "Exa (web search API)",
@@ -324,7 +324,7 @@
       "promo": null,
       "credit_card": false,
       "last_verified": "2026-07-08",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-10"
     }
   ]
 }
